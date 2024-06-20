@@ -39,7 +39,7 @@ function Home() {
 
   //Fetch vers la route Get /movies avec hook d'effet
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
+    fetch("https://backend-my-movies.vercel.app/movies")
       // fetch("http://localhost:3000/shows")
       .then((response) => response.json())
       .then((data) => {
